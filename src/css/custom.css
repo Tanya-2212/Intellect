@@ -1,0 +1,142 @@
+body {
+    background: #325d6e;
+}
+
+.Dashboard {
+    text-align: center;
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.widget1 {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 2px dashed #b5f1f5;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+
+}
+
+.outerbox {
+    position: relative;
+    z-index: 2;
+    min-height: 350px;
+    min-width: 350px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.counterbox {
+    height: 240px;
+    width: 240px;
+    background: linear-gradient(#b5f1f5, #6fdae7, #b5f1f5);
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.counterbox h5 {
+    color: #fff;
+    font-size: 80px;
+}
+
+.progress-bar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+}
+
+.bar-inner {
+    background-color: #325d6e;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.slider-container {
+    width: 100%;
+    display: flex;
+    margin-top: 20px
+}
+
+.slider-box {}
+
+.ant-tabs .ant-tabs-tab {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #b5f1f5;
+    border-color: #b5f1f5;
+}
+
+.ant-tabs .ant-tabs-ink-bar {
+    background-color: #b5f1f5;
+}
+
+.controller-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.value-type {
+    color: #fff;
+    font-size: 20px;
+    text-align: center
+}
+
+.controller-span {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    width: 380px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.controller-span.active {
+    background-color: #fff;
+}
+
+.controller-span:nth-child(2) {
+    width: 310px;
+}
+
+.controller-span:nth-child(3) {
+    width: 240px;
+}
+
+.controller-span:nth-child(4) {
+    width: 170px;
+}
+
+.controller-span:nth-child(5) {
+    width: 100px;
+}
