@@ -21,7 +21,7 @@ export default function Widget1() {
             </div>
         </div>
         <div className='slider-container'>
-            <div style={{width:"60%",margin:"auto",display:"inline-block"}} className='slider-box'>
+            <div className='slider-box'>
                 <Slider trackStyle={{height:8,borderRadius:50,background:"#6fdae7"}} railStyle={{background:"rgba(255,255,255,0.4)",height:8,borderRadius:50,overflow:"hidden"}} 
                 min={1} max={10} value={count} onChange={(val)=>handleProgress(val)}/>
             </div>
