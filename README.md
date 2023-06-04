@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+Question 1:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Take clone of the repository and run "npm install" command and then run "npm start" command
 
-## Available Scripts
+Question 2:
 
-In the project directory, you can run:
+Understand the Mobile Application: Begin by thoroughly understanding the existing mobile application. Identify its key features, functionality, user interface, and user experience. Evaluate the overall structure and flow of the application. This will help you gain a clear understanding of what needs to be implemented in the web app.
 
-### `npm start`
+Design the Web App Architecture: Plan the overall architecture of the web app. Decide on the React components and their hierarchy, routing structure, and state management (e.g., Redux, React Context). Determine how data will be fetched from APIs or existing back-end systems.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Create Wireframes and UI/UX Design: Create wireframes or mockups for the web app to visualize the user interface and user experience. Design the web app's look and feel to align with the existing mobile app or any specific design guidelines provided. Iterate on the design until it meets the desired standards.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Set Up Development Environment: Set up the development environment for React. Install the necessary tools, such as Node.js, npm or Yarn, and a code editor. Initialize a new React project using create-react-app or a similar tool.
 
-### `npm test`
+Implement Features: Start implementing the planned features of the web app one by one. Follow best practices for React development, such as breaking down the UI into reusable components, managing state effectively, and ensuring clean code organization. Implement necessary API integrations for data retrieval and updates.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Question 3:
 
-### `npm run build`
+I have worked with Next.js(SSG, SSR), Bootstrap(design), moment(for date-time), axios(for API call), Material-UI, Redux, Ant-Design, Formik(for form validations), lodash(for debouncing) and so on
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Question 4:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ In intellect app, you can work with animations in better way and viewport can be of full width so that status bar can be submerge in photos
