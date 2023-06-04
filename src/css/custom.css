@@ -82,7 +82,11 @@ body {
     margin-top: 20px
 }
 
-.slider-box {}
+.slider-box {
+    width:60%;
+    margin:auto;
+    display:inline-block
+}
 
 .ant-tabs .ant-tabs-tab {
     font-size: 18px;
